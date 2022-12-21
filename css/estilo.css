@@ -3,12 +3,80 @@
     margin: 0%;
     box-sizing: border-box;
 }
+body{
+    font-family:'Permanent Marker', 'Pacifico', cursive;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-size: 2.5rem;
+    font-family:'Permanent Marker', cursive;
+}
+
+.seccion-oscura{
+    color: #fff;
+    background-color: #1b1b32;
+}
+
+.seccion-titulo{
+    font-size: 2rem;
+    padding: 15px 2px;
+    font-family:'Permanent Marker', cursive;
+}
+
+.seccion.texto{
+    font-size: 1.2rem;
+    
+}
+
+/* Seccon hero */
+.hero{
+    background-color: #f5f6f7;
+    min-height: 450px;
+    text-align: center;
+
+}
+
+.hero-principal{
+    padding: 3rem;
+}
+.hero-principal h2{
+    font-size: 1.5rem;
+    color: #615151;
+    font-family: 'Pacifico', cursive ;
+}
+.hero-img-dev{
+    width: 200PX;
+    height: 200PX;
+    /* border-radius: 50%; suspendemos para darlo con boostrap*/
+    margin: 20px;
+}
+.hero-inferior{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* seccion about */
+.about{
+    height: 500px;
+    padding: 10px;
+}
+.about .contenedor{
+    max-width: 600px;
+    text-align: center;
+}
 
 /* navbar */
 .navbar{
     padding: 2rem;
     background: #f5f6f7;
-
 }
 .navbar-collapse{
     align-items: center;
@@ -16,12 +84,23 @@
 
 }
 
+
+
+
+
+/* Responsivo media */
+
 @media screen and ( max-width: 767px) {
     .navbar-brand{
         display: none;
     }
     .social-icons{
         display: none;
+    }
+}
+@media screen and (min-width:700px){
+    .hero-inferior-img{
+        max-width: 600px;
     }
 }
 

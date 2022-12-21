@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    font-family:'Permanent Marker', 'Pacifico', cursive;
+    font-family:'Permanent Marker', 'Oswald', cursive, sans-serif;
 }
 
 section{
@@ -32,7 +32,7 @@ h1{
 
 .seccion.texto{
     font-size: 1.2rem;
-    
+
 }
 
 /* Seccon hero */
@@ -49,7 +49,7 @@ h1{
 .hero-principal h2{
     font-size: 1.5rem;
     color: #615151;
-    font-family: 'Pacifico', cursive ;
+    font-family: 'Oswald', cursive ;
 }
 .hero-img-dev{
     width: 200PX;
@@ -69,8 +69,43 @@ h1{
     padding: 10px;
 }
 .about .contenedor{
+    font-family: 'Oswald', sans-serif;
     max-width: 600px;
     text-align: center;
+}
+
+/* seccion experiencia */
+.experiencia{
+    padding: 40px;
+}
+
+.experiencia i{
+    font-size: 2rem;
+    color: #ab16cc;
+     
+    border-radius: 40%;
+
+}
+
+.experiencia .row div{
+    height: 250px;    
+}
+
+.exp-titulo{   
+    font-family: 'Oswald', sans-serif; 
+    font-size: 12px;
+    font-weight: bold;
+    max-resolution: 10px 0px;
+}
+
+.badges-contenedor{
+    font-family: 'Oswald', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.badges{
+    margin: 5px;
 }
 
 /* navbar */
@@ -83,10 +118,9 @@ h1{
     justify-content: space-between;
 
 }
-
-
-
-
+ul.social-icons > li{
+    text-decoration: none;
+}
 
 /* Responsivo media */
 
